@@ -1,0 +1,50 @@
+{
+  "name": "spin2winApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node --max_old_space_size=4096 node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@cennznet/api": "^0.14.1",
+    "@cennznet/crml-cennzx-spot": "^0.5.6",
+    "@cennznet/crml-generic-asset": "^0.9.0",
+    "@cennznet/types": "^0.14.1",
+    "@cennznet/util": "^0.14.1",
+    "@cennznet/wallet": "^0.14.1",
+    "@plugnet/wasm-crypto-js": "^0.11.102",
+    "@react-native-community/async-storage": "^1.4.1",
+    "assert": "^1.4.1",
+    "bn.js": "^4.11.8",
+    "buffer": "^5.2.1",
+    "events": "^3.0.0",
+    "lz-string": "^1.4.4",
+    "process": "^0.11.10",
+    "react": "16.6.3",
+    "react-native": "^0.59.8",
+    "react-native-animatable": "^1.3.1",
+    "react-native-crypto": "^2.1.2",
+    "react-native-device-info": "^0.29.1",
+    "react-native-dialog": "^5.6.0",
+    "react-native-exception-handler": "^2.10.6",
+    "react-native-linear-gradient": "^2.5.3",
+    "react-native-randombytes": "^3.5.2",
+    "react-native-shake": "^3.2.4",
+    "readable-stream": "^3.4.0",
+    "styled-components": "^4.1.3",
+    "uuid": "^3.3.2",
+    "vm-browserify": "0.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "babel-plugin-rewrite-require": "^1.14.5",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

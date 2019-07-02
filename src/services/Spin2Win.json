@@ -1,0 +1,16 @@
+{
+  "name": "Spin2Win",
+  "deploy": {
+    "args": []
+  },
+  "messages": [{
+    "name": "spin",
+    "selector": 2121348255,
+    "mutates": false,
+    "args": [{
+      "name": "player",
+      "type": "AccountId"
+    }],
+    "return_type": null
+  }]
+}
