@@ -23,13 +23,11 @@ import { getNetwork } from './network';
 let sdkApi = null;
 
 const createApi = async () => {
+  if (sdkApi) return sdkApi;
+
   const { url } = getNetwork();
   const provider = new WsProvider(url);
-  
-  if (!sdkApi) {
-    sdkApi = await Api.create({ provider });
-  }
-
+  sdkApi = await Api.create({ provider });
   return sdkApi;
 };
 
