@@ -1,6 +1,6 @@
 # Spin2Win App
 
-A React-Native demo app to request accounts authorization from `SingleSource App` and
+A React-Native demo app to request accounts authorization from [SingleSource App](https://testflight.apple.com/join/gfagbjh7) and
 call [spin2win](https://github.com/cennznet/spin2win) smart contract which transfers a
 random amount of balance to the calling account.
 
