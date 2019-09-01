@@ -3,7 +3,6 @@ package com.spin2winapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.clipsub.RNShake.RNShakeEventPackage;
 import com.bitgo.randombytes.RandomBytesPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
@@ -28,7 +27,6 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new AsyncStoragePackage(),
             new RNShakeEventPackage(),
             new RandomBytesPackage(),
             new LinearGradientPackage(),

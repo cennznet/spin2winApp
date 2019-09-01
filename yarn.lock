@@ -1023,11 +1023,6 @@
   resolved "https://registry.yarnpkg.com/@plugnet/wasm-crypto/-/wasm-crypto-0.11.102.tgz#be9bd18aeff09134961d4365d639fa9d1c059b57"
   integrity sha512-nT54uq93sRp+Hy1NQrHFf86mbW5c3k0PqR7BIbYbAP5U3O1qIa3AVt5OXcwCeolYr1eINn0+nMdNqukF6KQFBw==
 
-"@react-native-community/async-storage@^1.4.1":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.5.0.tgz#647ffcd832272068b0be57332e08d73036ed391f"
-  integrity sha512-2yE4RzQ5IL+UTPhuMY0ykNRKHf1m90jOnmp8fcDPUun5U97cXlorjI4p66ovDgF0FuOv8ZpiUKvunGy3qqBxwg==
-
 "@react-native-community/cli@^1.2.1":
   version "1.9.11"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli/-/cli-1.9.11.tgz#b868b17201057b9cd16a3a20c30561176071f21a"
