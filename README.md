@@ -17,3 +17,7 @@ and select the specific node version.
 
 1. `yarn install`
 2. Run `react-native run-ios`
+
+## Demo screens
+
+![image](https://github.com/cennznet/spin2winApp/blob/master/resources/demo.gif)
