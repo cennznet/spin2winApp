@@ -136,7 +136,6 @@ android {
 
 dependencies {
     implementation project(':@react-native-community_async-storage')
-    implementation project(':react-native-device-info')
     implementation project(':react-native-udp')
     implementation project(':react-native-tcp')
     implementation project(':react-native-shake')
