@@ -15,7 +15,6 @@
  */
 
 import { Alert } from 'react-native';
-import DeviceInfo from 'react-native-device-info';
 
 // TODO: support input url
 const apiKey = '5b55b29e-bcb0-4ec7-9ae3-7c262ab0029c';
@@ -26,11 +25,7 @@ const networks = {
     contractAddress: '5EmcW7ndycEYkTjLoTpZKbChRKrqL7oQ1LNcuLXGUhZGg2zE',
     type: 'Rimu'
   },
-}
-
-const versionNumber = DeviceInfo.getVersion();
-const builderNumber = DeviceInfo.getBuildNumber();
-const version = `v${versionNumber} (${builderNumber})`;
+};
 
 const network = { ...networks.rimu };
 const changeNetwork = net => Object.assign(network, { ...net });
@@ -52,9 +47,6 @@ export const changeNetworkAlert = (callback) => {
         changeNetwork(networks.rimu);
         callback();
       }
-    },
-    {
-      text: version
     }
   ]);
-}
+};

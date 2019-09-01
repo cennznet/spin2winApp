@@ -4,12 +4,8 @@ import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
-import com.learnium.RNDeviceInfo.RNDeviceInfo;
-import com.tradle.react.UdpSocketsModule;
-import com.peel.react.TcpSocketsModule;
 import com.clipsub.RNShake.RNShakeEventPackage;
 import com.bitgo.randombytes.RandomBytesPackage;
-import com.peel.react.rnos.RNOSModule;
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.masteratul.exceptionhandler.ReactNativeExceptionHandlerPackage;
 import com.facebook.react.ReactNativeHost;
@@ -33,12 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new AsyncStoragePackage(),
-            new RNDeviceInfo(),
-            new UdpSocketsModule(),
-            new TcpSocketsModule(),
             new RNShakeEventPackage(),
             new RandomBytesPackage(),
-            new RNOSModule(),
             new LinearGradientPackage(),
             new ReactNativeExceptionHandlerPackage()
       );
