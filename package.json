@@ -14,7 +14,6 @@
     "@cennznet/util": "^0.14.1",
     "@cennznet/wallet": "^0.14.1",
     "@plugnet/wasm-crypto-js": "^0.11.102",
-    "@react-native-community/async-storage": "^1.4.1",
     "assert": "^1.4.1",
     "bn.js": "^4.11.8",
     "buffer": "^5.2.1",

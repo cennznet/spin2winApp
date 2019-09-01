@@ -135,12 +135,8 @@ android {
 }
 
 dependencies {
-    implementation project(':@react-native-community_async-storage')
-    implementation project(':react-native-udp')
-    implementation project(':react-native-tcp')
     implementation project(':react-native-shake')
     implementation project(':react-native-randombytes')
-    implementation project(':react-native-os')
     implementation project(':react-native-linear-gradient')
     implementation project(':react-native-exception-handler')
     implementation fileTree(dir: "libs", include: ["*.jar"])
