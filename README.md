@@ -75,3 +75,7 @@ The last step: [`sign and send the tx`](https://github.com/cennznet/spin2winApp/
 -  The signer should have enough funds to sign a transaction. You can get tokens through [faucet](https://cennznet.js.org/faucet-ui/).
 -  The network(Localhost or Rimu) of deploying contract and calling contract should be the same one.
 - For spin2win contract, should make sure the contract has enough funds to allocate assets. You can also top up the contract, using contract address, through [faucet](https://cennznet.js.org/faucet-ui/).
+
+
+## License
+See LICENSE for more info.
