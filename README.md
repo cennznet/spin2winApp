@@ -18,14 +18,13 @@ and select the specific node version.
 1. `yarn install`
 2. Run `react-native run-ios`
 
-## Demo Screen
-
-![image](https://github.com/cennznet/spin2winApp/blob/master/resources/demo.gif)
-
-
 ## Wiki
 - [Create you own DApp with React Native](https://github.com/cennznet/spin2winApp/wiki/Create-you-own-DApp-with-React-Native)
 - [Play with contracct](https://github.com/cennznet/spin2winApp/wiki/Play-with-Contract)
+
+## Demo Screen
+
+![image](https://github.com/cennznet/spin2winApp/blob/master/resources/demo.gif)
 
 ## License
 See LICENSE for more info.
